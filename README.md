@@ -1,5 +1,5 @@
 # EasyWifi_Nano
-EasyWifi setup for Arduino Nano0 modules with uBLox Nina (ESP32) wifi, but NO RGB leds (Nano series)
+EasyWifi setup for Arduino Nano modules with uBLox Nina (ESP32) wifi, but NO RGB leds (Nano series)
 Fork from EAsyWifi libaries
 
 EasyWifi means Wifi setup without storing your credentials (SSID/Password) in your code, and have easy credential input by means of a Wifi AccessPoint entry by smartphone.
