@@ -31,8 +31,7 @@ class EasyWiFi
     EasyWiFi();
     byte start();
     void seed(int value);
-    void led(boolean value);
-    
+     
   private:                      
   void SimpleDecypher(char * textin, char * textout);
   void SimpleCypher(char * textin, char * textout);

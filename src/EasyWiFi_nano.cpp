@@ -2,11 +2,6 @@
  * EasyWiFi Nano 
  * Created by John V. - 2021 V 1.1.0
  * 
- *  RGB LED INDICATOR on uBlox nina Module
- *  GREEN: Connected
- *  
- *  BLUE: (Stored) Credentials found, connecting        
- *  RED: No Stored Credentials found, exit error    
  * 
  *  
  * 
@@ -15,14 +10,13 @@
  
 #include "EasyWiFi_nano.h"
 
-#define DBGON   1  // Debug option  -serial print
+#define DBGON   1  // Debug option  -serial print function
 
 char G_SSIDList[MAXSSID][SSIDBUFFERSIZE];                     // Store of available SSID's
 int G_ssidCounter = 0;                //Gloabl counter for number of foubnd SSID's
 char G_ssid[32] = SECRET_SSID;        // optional init: your network SSID (name) 
 char G_pass[32] = SECRET_PASS;        // optional init: your network password 
 int SEED=4;
-boolean G_ledon=1; // leds on or of
 
 // ***************************************
 
