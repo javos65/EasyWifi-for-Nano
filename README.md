@@ -10,7 +10,10 @@ EasyWiFi.start(): starts wifi setup, reading credentials (if available) from fla
 
 SO .... no Credentials in your code :)
 
-Credentials are Cyphered stored for  back-reading protection (simplistic, but ok)
+Setup your credentials: use the example wifi_storage.ino: set your seed, write your SSID/Pass to Flash
+Use the same seed in your code to let EasyWifi read the credentials and login.
+
+Credentials are Cyphered stored for  back-reading protection (simplistic rolling cypher code, but ok)
 use .SEED setting to change the Cyphering.
 
 
