@@ -1,5 +1,5 @@
 
-EasyWiFi	KEYWORD1
+EasyWiFi_nano	KEYWORD1
 
 start	KEYWORD2
 erase	KEYWORD2
